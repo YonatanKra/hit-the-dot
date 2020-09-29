@@ -1,0 +1,19 @@
+{
+  "name": "hit-the-dot",
+  "version": "1.0.0",
+  "description": "learn TDD by creating a game",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run tsc -- --project tsconfig.test.json",
+    "test": "jest",
+    "tsc": "tsc",
+    "start:watch": "npm run tsc -- --watch --project tsconfig.app.json"
+  },
+  "author": "Hod Bauer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "typescript": "^4.0.3"
+  }
+}
